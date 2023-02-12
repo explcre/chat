@@ -17,8 +17,12 @@ If you want to change the predefined text of chatgpt please change in `./script.
 Change the content of it and you will make chatgpt learn the thing you defined in advance!
 
 ## _Chatting Bot Like Design (Whatsapp like interface)_
-- [Running Site](https://explcre.github.io/chat)
-[![N|Solid](images/demo.gif)](https://explcre.github.io/chat)
+If you want to see full function, you can go to: 
+- [Running Site: https://explcre.github.io/mychat](https://explcre.github.io/mychat)
+
+Notice that the website above is not open-sourced. But if you add your openai api key in this code repo locally, you can see the similar effect. (For safety reason,openai api key in not included in code of this repo)
+
+[![N|Solid](images/demo.gif)](https://explcre.github.io/mychat)
 
 ## Technologies Used
 
