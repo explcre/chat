@@ -4,15 +4,19 @@
 Now it supports chatgpt!
 ## How to deploy it with openai API key
 I let chatgpt know my information and let it imitate me.
-To use chatgpt function,   change the API key in `./script.js`.
+
+To use chatgpt function by yourself based on this repo,  change the API key in `./script.js`.
 `var OPENAI_API_KEY = "";` lies in around line 23.
 
 You can get the key from https://platform.openai.com/account/api-keys
 
+The format of api key is like `sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
+
 
 ## How to change the predefined information learned by ChatGPT
 If you want to change the predefined text of chatgpt please change in `./script.js`.
-`var predefined_text="Can you imitate that you are Pengcheng Xu?...."`lies in around line 10. 
+
+You can change the variable `var predefined_text="Can you imitate that you are Pengcheng Xu?...."` which lies in around line 10. 
 
 Change the content of it and you will make chatgpt learn the thing you defined in advance!
 
@@ -22,7 +26,7 @@ If you want to see full function, you can go to:
 
 Notice that the website above is not open-sourced. But if you add your openai api key in this code repo locally, you can see the similar effect. (For safety reason,openai api key in not included in code of this repo)
 
-[![N|Solid](images/demo.gif)](https://explcre.github.io/mychat)
+[![N|Solid](images/demo.gif)](https://explcre.github.io/ChatGPT-Personalized-Portfolio-Website)
 
 ## Technologies Used
 
